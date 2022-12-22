@@ -1,5 +1,5 @@
 mod common;
-pub use common::Authorization;
+pub use common::*;
 
 // only used with WS
 #[cfg(feature = "ws")]
