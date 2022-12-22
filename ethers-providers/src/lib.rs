@@ -3,7 +3,7 @@
 #![deny(rustdoc::broken_intra_doc_links)]
 #![allow(clippy::type_complexity)]
 #![doc = include_str!("../README.md")]
-mod transports;
+pub mod transports;
 use futures_util::future::join_all;
 pub use transports::*;
 
